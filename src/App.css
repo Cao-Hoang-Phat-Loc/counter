@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh; /* Đảm bảo body chiếm toàn bộ chiều cao của viewport */
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Căn giữa các phần tử bên trong container */
+    text-align: center; /* Căn giữa văn bản bên trong container */
+    font-size: 2rem;
+    font-family: Roboto,sans-serif;
+  }
+  #value{
+    font-size: 6rem;
+    font-weight: bold;
+  }
+  .btn{
+    background: transparent;
+    padding: 5px 20px;
+    border-radius:5px;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  .btn:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+  }
